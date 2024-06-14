@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    background-color: #fff;
+}
+
+.header_wrapper {
+    height: 811px;
+
+    color: #fff;
+
+    background: url("img/background.png") center;
+    background-size: cover;
+}
+
+header {
+    padding-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 1111px;
+    height: 43px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 256px;
+    height: 40px;
+}
+
+#menu {
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.header_content {
+    width: 616px;
+    height: 412px;
+
+    margin: 121px 0 0 166px;
+}
+
+.header_content p:first-of-type {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header_content h1 {
+    margin: 22px 0 24px 0;
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+.header_content p:last-of-type {
+    margin-bottom: 45px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header_content a {
+    color: #ffd723;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+main {
+    margin-top: 150px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main_content {
+    width: 1110px;
+    height: 611px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content h2 {
+    margin-bottom: 60px;
+
+    color: #4d533c;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.list {
+    width: 1110px;
+    height: 309px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list_item {
+    width: 255px;
+    height: 309px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.list_item h3 {
+    padding: 27px 42px 20px 30px;
+
+    color: #4d533c;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+
+    text-transform: uppercase;
+}
+
+.list_item p {
+    padding: 0 31px 0 30px;
+
+    color: rgba(33, 56, 66, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.list_item a {
+    padding: 0 123px 36px 30px;
+
+    position: absolute;
+    bottom: 0;
+
+    color: #d4d6d4;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    transition: .2s color;
+}
+
+.list_item a:hover {
+    color: #ffd723;
+}
