@@ -15,7 +15,7 @@ body {
 
     color: #fff;
 
-    background: url("img/background.png") center;
+    background: url("img/background.png") center no-repeat;
     background-size: cover;
 }
 
@@ -221,5 +221,42 @@ footer {
 
     position: relative;
 
-    background: url("img/footer_background.png") center;
+    background: url("img/footer_background.png") center no-repeat;
+    background-size: cover;
+}
+
+.footer_content {
+    width: 1111px;
+    height: 580px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    padding-top: 310px;
+
+    display: flex;
+    gap: 128px;
+}
+
+.phone_content h5,
+.address_content h5 {
+    color: #b6c197;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.phone_content a,
+.address_content a {
+    color: #fff;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+
+    text-decoration: none;
 }
