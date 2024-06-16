@@ -271,6 +271,7 @@ footer {
     height: 320px;
 
     padding-top: 60px;
+    margin-bottom: 60px;
 
     display: flex;
     justify-content: space-between;
@@ -402,4 +403,27 @@ footer {
 
 #instagram:hover {
     opacity: 1;
+}
+
+.footer_end {
+    width: 1110px;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    border-top: 1px solid #5d6544;
+}
+
+.footer_end img {
+    padding-top: 24px;
+}
+
+.footer_end p {
+    color: #b5c096;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
 }
