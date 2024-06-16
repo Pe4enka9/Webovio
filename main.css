@@ -179,6 +179,7 @@ main {
 
     position: absolute;
     top: -181px;
+    left: 0;
 
     background-color: #fafafa;
 
@@ -219,6 +220,9 @@ main {
 footer {
     height: 920px;
 
+    display: flex;
+    justify-content: center;
+
     position: relative;
 
     background: url("img/footer_background.png") center no-repeat;
@@ -229,13 +233,14 @@ footer {
     width: 1111px;
     height: 580px;
 
+    padding-top: 310px;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .contact {
-    padding-top: 310px;
+    padding-bottom: 52px;
 
     display: flex;
     gap: 128px;
@@ -259,4 +264,142 @@ footer {
     line-height: 40px;
 
     text-decoration: none;
+}
+
+.about {
+    width: 1111px;
+    height: 320px;
+
+    padding-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #5d6544;
+}
+
+.about h5 {
+    padding-bottom: 21px;
+
+    color: #fff;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+
+    text-transform: uppercase;
+}
+
+.about a {
+    display: block;
+
+    color: #b6c197;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+
+    text-decoration: none;
+}
+
+.about p {
+    color: #b6c197;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.line {
+    width: 1px;
+    height: 210px;
+
+    background-color: #5d6544;
+}
+
+.get_in_touch {
+    width: 322px;
+    height: 232px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.get_in_touch h5 {
+    padding: 0;
+}
+
+#mail {
+    color: #fff;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.get_in_touch_icons {
+    display: flex;
+    gap: 14px;
+}
+
+.get_in_touch_icons svg {
+    width: 33px;
+    height: 33px;
+
+    cursor: pointer;
+
+    fill: #444a34 !important;
+}
+
+#facebook1,
+#facebook2,
+#twitter1,
+#twitter2,
+#google1,
+#instagram1,
+#instagram2 {
+    transition: .2s fill;
+}
+
+#facebook:hover #facebook1 {
+    fill: #3b5998 !important;
+}
+
+#facebook:hover #facebook2 {
+    fill: #fff !important;
+}
+
+#twitter:hover #twitter1 {
+    fill: #1D9BF0 !important;
+}
+
+#twitter:hover #twitter2 {
+    fill: #fff !important;
+}
+
+#google:hover #google1 {
+    fill: #ffd723 !important;
+}
+
+#google:hover #google2 {
+    fill: #fff !important;
+}
+
+.instagram_wrap {
+    position: relative;
+}
+
+#instagram {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+
+    transition: .2s opacity;
+}
+
+#instagram:hover {
+    opacity: 1;
 }

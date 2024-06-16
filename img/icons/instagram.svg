@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.4625mm"
+   height="17.4625mm"
+   viewBox="0 0 17.4625 17.4625"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="instagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.8511223"
+     inkscape:cx="219.61599"
+     inkscape:cy="488.70966"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-92.504193,-147.88148)">
+    <circle
+       style="fill:#444a34;fill-opacity:1;stroke-width:0.264583"
+       id="circle3"
+       cx="101.23544"
+       cy="156.61273"
+       r="8.7312498"
+       inkscape:export-filename="google.svg"
+       inkscape:export-xdpi="2.8199999"
+       inkscape:export-ydpi="2.8199999" />
+    <path
+       style="font-weight:bold;font-size:9.6073px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#6a724f;stroke-width:0.800608"
+       d="m 97.635052,154.39386 v -1.21968 h 1.318189 v 1.21968 z m 0,5.65742 v -4.98191 h 1.318189 v 4.98191 z m 7.200788,0 h -1.31819 v -2.54255 q 0,-0.80687 -0.0844,-1.04142 -0.0844,-0.23924 -0.27678,-0.37059 -0.18764,-0.13135 -0.45503,-0.13135 -0.34245,0 -0.61453,0.18764 -0.27208,0.18764 -0.37528,0.49725 -0.0985,0.30961 -0.0985,1.14462 v 2.2564 h -1.31818 v -4.98191 h 1.22436 v 0.73181 q 0.65206,-0.84439 1.64188,-0.84439 0.43626,0 0.79748,0.1595 0.36121,0.1548 0.54416,0.39874 0.18764,0.24393 0.25801,0.55354 0.0751,0.30961 0.0751,0.88661 z"
+       id="text3"
+       aria-label="in" />
+  </g>
+</svg>
